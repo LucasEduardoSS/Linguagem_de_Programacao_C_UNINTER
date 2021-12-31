@@ -1,0 +1,11 @@
+/* Figura 19 - Exemplo de declaração e impressão de valor constante como macro */
+
+#include <stdio.h>
+
+#define PI 3.1415
+
+int main() {
+    printf("Value of PI: %.4f", PI);
+    
+    return 0;
+}
