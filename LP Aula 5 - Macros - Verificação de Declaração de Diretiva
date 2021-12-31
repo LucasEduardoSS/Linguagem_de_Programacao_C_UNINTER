@@ -1,0 +1,17 @@
+/* Figura 17 - Exemplo de uso de função condicional para diretivas
+e  macros. Neste caso foi utilizada para verificar se uma macro 
+havia sido criada */-
+
+#include <stdio.h>
+
+#define status
+
+int main() {
+    # ifdef status
+        printf("Status criado!");
+    # else
+        printf("Status não criado!");
+    # endif
+    
+    return 0;
+}
