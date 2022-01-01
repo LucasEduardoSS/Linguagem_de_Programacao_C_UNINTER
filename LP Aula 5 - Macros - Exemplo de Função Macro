@@ -1,3 +1,7 @@
+/* Figura 21 - Exemplo de uso de diretiva para definir uma função macro
+que será subtituida em todas as chamadas pelo código e que verifica o
+maior valor entre dois atribuidos 8/
+
 #include <stdio.h>
 #include <stdlib.h>
 
