@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/* The function has two parameters that receive one
+int number each, if the y parameter be lower than the
+function return the value of x, else, ir returns
+itself, with the second parameter minus one. *\
+
 int potencia(int x, int y){
     if (y < 2) {
         return x;
